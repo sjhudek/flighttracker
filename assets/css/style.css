@@ -1,0 +1,111 @@
+:root {
+    --off-white: #f8f8f8;
+    --white: white;
+    --light-gray: #ccc;
+}
+
+.bounding-box {
+    position: relative;
+    border: 2px solid var(--light);
+    padding: 40px;
+    border-radius: 10px;
+    background-color: var(--off-white);
+    width: 100%;
+<<<<<<< HEAD
+    height: 80%;
+=======
+    height: 70%;
+>>>>>>> 21b9e1c7d30da9cb0e51665215080104a254df0f
+    max-width: 80%;
+    background-image: url(../images/ezgif.com-webp-to-jpg.jpg);
+}
+
+#items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.jumbotron {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--white);
+    width: 60%;
+<<<<<<< HEAD
+    height: 60%; /* Increase the height value as desired */
+    padding: 50px 30px;
+=======
+    height: 50%;
+>>>>>>> 21b9e1c7d30da9cb0e51665215080104a254df0f
+}
+
+.form-floating {
+    display: grid;
+    gap: 1rem;
+    justify-items: center;
+}
+
+<<<<<<< HEAD
+#trackFlightBtn {
+    margin-top: 10px;
+=======
+.jumbotron {
+    padding: 10px 10px;
+>>>>>>> 21b9e1c7d30da9cb0e51665215080104a254df0f
+}
+
+/*
+####################################################
+BOOTSTRAP 5 M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 5 breakpoints
+*/
+ 
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+ 
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+ 
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+ 
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+ 
+/* Extra extra large devices (extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {  
+    
+}
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+/* @media (max-width: 950px) { 
+ 
+} */
