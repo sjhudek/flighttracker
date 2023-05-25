@@ -6,16 +6,12 @@
 
 .bounding-box {
     position: relative;
-    border: 2px solid var(--light);
+    border: 2px solid var(--light-gray);
     padding: 40px;
     border-radius: 10px;
     background-color: var(--off-white);
     width: 100%;
-<<<<<<< HEAD
-    height: 80%;
-=======
     height: 70%;
->>>>>>> 21b9e1c7d30da9cb0e51665215080104a254df0f
     max-width: 80%;
     background-image: url(../images/ezgif.com-webp-to-jpg.jpg);
 }
@@ -35,12 +31,8 @@
     transform: translate(-50%, -50%);
     background-color: var(--white);
     width: 60%;
-<<<<<<< HEAD
-    height: 60%; /* Increase the height value as desired */
-    padding: 50px 30px;
-=======
     height: 50%;
->>>>>>> 21b9e1c7d30da9cb0e51665215080104a254df0f
+    padding: 10px;
 }
 
 .form-floating {
@@ -49,14 +41,10 @@
     justify-items: center;
 }
 
-<<<<<<< HEAD
-#trackFlightBtn {
+.jumbotron #trackFlightBtn {
     margin-top: 10px;
-=======
-.jumbotron {
-    padding: 10px 10px;
->>>>>>> 21b9e1c7d30da9cb0e51665215080104a254df0f
 }
+
 
 /*
 ####################################################
