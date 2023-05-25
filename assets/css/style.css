@@ -11,7 +11,7 @@
     border-radius: 10px;
     background-color: var(--off-white);
     width: 100%;
-    height: 70%;
+    height: 80%;
     max-width: 80%;
     background-image: url(../images/ezgif.com-webp-to-jpg.jpg);
 }
@@ -31,7 +31,8 @@
     transform: translate(-50%, -50%);
     background-color: var(--white);
     width: 60%;
-    height: 50%;
+    height: 60%; /* Increase the height value as desired */
+    padding: 50px 30px;
 }
 
 .form-floating {
@@ -40,8 +41,8 @@
     justify-items: center;
 }
 
-.jumbotron {
-    padding: 10px 10px;
+#trackFlightBtn {
+    margin-top: 10px;
 }
 
 /*
