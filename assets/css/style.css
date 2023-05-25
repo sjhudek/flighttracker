@@ -6,7 +6,7 @@
 
 .bounding-box {
     position: relative;
-    border: 2px solid var(--light);
+    border: 2px solid var(--light-gray);
     padding: 40px;
     border-radius: 10px;
     background-color: var(--off-white);
@@ -44,6 +44,7 @@
 #trackFlightBtn {
     margin-top: 10px;
 }
+
 
 /*
 ####################################################
