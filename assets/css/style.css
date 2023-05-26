@@ -4,27 +4,31 @@
     --light-gray: #ccc;
 }
 
+body {
+    background-image: url(../images/ezgif.com-webp-to-jpg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .bounding-box {
+    border: 2px solid var(--light-gray);
     position: relative;
     border: 2px solid var(--light);
     padding: 40px;
     border-radius: 10px;
-    background-color: var(--off-white);
+    background-color: transparent;
     width: 100%;
-<<<<<<< HEAD
-    height: 80%;
-=======
     height: 70%;
->>>>>>> 21b9e1c7d30da9cb0e51665215080104a254df0f
     max-width: 80%;
-    background-image: url(../images/ezgif.com-webp-to-jpg.jpg);
-}
-
-#items {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     height: 100%;
 }
 
@@ -35,28 +39,12 @@
     transform: translate(-50%, -50%);
     background-color: var(--white);
     width: 60%;
-<<<<<<< HEAD
-    height: 60%; /* Increase the height value as desired */
-    padding: 50px 30px;
-=======
-    height: 50%;
->>>>>>> 21b9e1c7d30da9cb0e51665215080104a254df0f
+    height: 35%;
+    padding: 20px;
+    /* Black shadow with 10px blur */
+    filter: drop-shadow(-8px 8px 10px rgb(100, 100, 100));
 }
 
-.form-floating {
-    display: grid;
-    gap: 1rem;
-    justify-items: center;
-}
-
-<<<<<<< HEAD
-#trackFlightBtn {
-    margin-top: 10px;
-=======
-.jumbotron {
-    padding: 10px 10px;
->>>>>>> 21b9e1c7d30da9cb0e51665215080104a254df0f
-}
 
 /*
 ####################################################
