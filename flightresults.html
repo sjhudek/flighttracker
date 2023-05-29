@@ -1,102 +1,196 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    /* CSS for responsive layout */
-    body {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-    
-    /* CSS for header */
-    .header {
-      background-color: #000;
-      color: #fff;
-      padding: 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    
-    .header-title {
-      margin: 0;
-    }
-    
-    .nav-link {
-      color: #fff;
-      text-decoration: none;
-    }
-    
-    /* CSS for flight rows */
-    .flight-row {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 20px;
-      border-bottom: 1px solid #ccc;
-    }
-    
-    .airline-name {
-      font-weight: bold;
-      font-size: 18px;
-      margin-bottom: 10px;
-    }
-    
-    .flight-time {
-      font-size: 16px;
-      color: #888;
-    }
-  </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: lightgray;
+            color: black;
+            display: flex;
+            justify-content: flex-end; /* Align content to the right */
+            padding: 10px;
+        }
+        .header .column {
+            display: flex;
+            flex-direction: column;
+        }
+        .header .row {
+            display: flex;
+            text-decoration: none; /* Remove underline */
+        }
+        .header .column:nth-child(n) {
+            border-bottom: none; /* Remove gray underline for columns */
+        }
+        .header .row:nth-child(n) {
+            border-bottom: none; /* Remove gray underline for rows */
+        }
+        .body {
+            display: flex;
+        }
+        .left-half {
+            width: 50%;
+            border-right: 1px solid gray;
+        }
+        .right-half {
+            width: 50%;
+            padding: 10px;
+        }
+        .row {
+            display: flex;
+            border-bottom: 1px solid gray;
+        }
+        .column {
+            flex: 1;
+            padding: 10px;
+        }
+        .map {
+            width: 100%;
+            height: 450px;
+            border: 0;
+        }
+    </style>
 </head>
 <body>
-  <div class="header">
-    <h1 class="header-title">Flight Tracker</h1>
-    <a class="nav-link" href="file:///C:/Users/karaf/bootcamp/FlightDashboard/project-1/index.html">Home</a>
-  </div>
-
-  <div class="flight-row">
-    <div class="airline-name">Airline Name 1</div>
-    <div class="flight-time">Flight Time 1</div>
-  </div>
-  
-  <div class="flight-row">
-    <div class="airline-name">Airline Name 2</div>
-    <div class="flight-time">Flight Time 2</div>
-  </div>
-  
-  <div class="flight-row">
-    <div class="airline-name">Airline Name 3</div>
-    <div class="flight-time">Flight Time 3</div>
-  </div>
-  
-  <div class="flight-row">
-    <div class="airline-name">Airline Name 4</div>
-    <div class="flight-time">Flight Time 4</div>
-  </div>
-  
-  <div class="flight-row">
-    <div class="airline-name">Airline Name 5</div>
-    <div class="flight-time">Flight Time 5</div>
-  </div>
-  
-  <div class="flight-row">
-    <div class="airline-name">Airline Name 6</div>
-    <div class="flight-time">Flight Time 6</div>
-  </div>
-  
-  <div class="flight-row">
-    <div class="airline-name">Airline Name 7</div>
-    <div class="flight-time">Flight Time 7</div>
-  </div>
-  
-  <div class="flight-row">
-    <div class="airline-name">Airline Name 8</div>
-    <div class="flight-time">Flight Time 8</div>
-
-
-  </div>
-</body>
-</html>
+    <div class="header">
+        <div class="column">
+            <div class="row">
+                <span>Airport</span>
+            </div>
+            <div class="row">
+                <span>DEN (Denver Intl)</span>
+            </div>
+        </div>
+        <div class="column">
+            <div class="row">
+                <span>Date</span>
+            </div>
+            <div class="row">
+                <span>5/23</span>
+            </div>
+        </div>
+        <div class="column">
+            <div class="row">
+                <span>Time</span>
+            </div>
+            <div class="row">
+                <span>Morning</span>
+            </div>
+        </div>
+        <div class="column">
+            <div class="row">
+                <a href="file:///C:/Users/karaf/bootcamp/FlightDashboard/project-1/index.html">Home</a>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="left-half">
+            <div class="row">
+                <div class="column">Select flights to track</div>
+            </div>
+            <div class="row">
+                <div class="column"><img src="C:\Users\karaf\bootcamp\FlightDashboard\project-1\assets\images\Southwest-Airlines-Emblem.png" alt="southwest-logo"></div>
+                <div class="column">Southwest </div>
+                <div class="column">Flight 118</div>
+                <div class="column">5:10 am MST</div>
+                <div class="column">DEN</div>
+                <div class="column"><img src="C:\Users\karaf\bootcamp\FlightDashboard\project-1\assets\images\arrow.jpg" alt="arrow"></div>
+                <div class="column">8:05 am CST</div>
+                <div class="column">STL</div>
+            </div>
+             <div class="row">
+                <div class="column"><img src="C:\Users\karaf\bootcamp\FlightDashboard\project-1\assets\images\Southwest-Airlines-Emblem.png" alt="southwest-logo"></div>
+                <div class="column">Southwest</div>
+                <div class="column">Flight 1011</div>
+                <div class="column">5:45 am MST</div>
+                <div class="column">DEN</div>
+                <div class="column"><img src="C:\Users\karaf\bootcamp\FlightDashboard\project-1\assets\images\arrow.jpg" alt="arrow"></div>
+                <div class="column">11:20 am EST</div>
+                <div class="column">MCO</div>
+            </div>
+            <div class="row">
+                <div class="column"><img src="C:\Users\karaf\bootcamp\FlightDashboard\project-1\assets\images\Delta-logo.png" alt="Delta-logo"></div>
+                <div class="column">Delta</div>
+                <div class="column">Flight 817</div>
+                <div class="column">5:45 am MST</div>
+                <div class="column">DEN</div>
+                <div class="column"><img src="C:\Users\karaf\bootcamp\FlightDashboard\project-1\assets\images\arrow.jpg" alt="arrow"></div>
+                <div class="column">10:40 am EST</div>
+                <div class="column">ATL</div>
+            </div>
+              <div class="row">
+                <div class="column"><img src="C:\Users\karaf\bootcamp\FlightDashboard\project-1\assets\images\aeromexico.jpg" alt="aeromexico-logo"></div>
+                <div class="column">Aeromexico</div>
+                <div class="column">Flight 3178</div>
+                <div class="column">5:45 am MST</div>
+                <div class="column">DEN</div>
+                <div class="column"><img src="C:\Users\karaf\bootcamp\FlightDashboard\project-1\assets\images\arrow.jpg" alt="arrow"></div>
+                <div class="column">10:40 am EST</div>
+                <div class="column">ATL</div>
+            </div>
+              <div class="row">
+                <div class="column"><img src="C:\Users\karaf\bootcamp\FlightDashboard\project-1\assets\images\frontier-logo.png" alt="frontier-logo"></div>
+                <div class="column">Frontier</div>
+                <div class="column">Flight 646</div>
+                <div class="column">5:50 am MST</div>
+                <div class="column">DEN</div>
+                <div class="column"><img src="C:\Users\karaf\bootcamp\FlightDashboard\project-1\assets\images\arrow.jpg" alt="arrow"></div>
+                <div class="column">8:31 am CST</div>
+                <div class="column">MCI</div>
+            </div>
+              <div class="row">
+                <div class="column"><img src="C:\Users\karaf\bootcamp\FlightDashboard\project-1\assets\images\Southwest-Airlines-Emblem.png" alt="southwest-logo"></div>
+                <div class="column">Southwest</div>
+                <div class="column">Flight 1936</div>
+                <div class="column">5:55 am MST</div>
+                <div class="column">DEN</div>
+                <div class="column"><img src="C:\Users\karaf\bootcamp\FlightDashboard\project-1\assets\images\arrow.jpg" alt="arrow"></div>
+                <div class="column">9:25 am CST</div>
+                <div class="column">BNA</div>
+            </div>
+              <div class="row">
+                <div class="column"><img src="C:\Users\karaf\bootcamp\FlightDashboard\project-1\assets\images\Southwest-Airlines-Emblem.png" alt="southwest-logo"></div>
+                <div class="column">Southwest</div>
+                <div class="column">Flight 1072</div>
+                <div class="column">6:00 am MST</div>
+                <div class="column">DEN</div>
+                <div class="column"><img src="C:\Users\karaf\bootcamp\FlightDashboard\project-1\assets\images\arrow.jpg" alt="arrow"></div>
+                <div class="column">7:40 am PST</div>
+                <div class="column">PDX</div>
+            </div>
+              <div class="row">
+                <div class="column"><img src="C:\Users\karaf\bootcamp\FlightDashboard\project-1\assets\images\Delta-logo.png" alt="Delta-logo"></div>
+                <div class="column">Delta</div>
+                <div class="column">Flight 1349</div>
+                <div class="column">6:00 am MST</div>
+                <div class="column">DEN</div>
+                <div class="column"><img src="C:\Users\karaf\bootcamp\FlightDashboard\project-1\assets\images\arrow.jpg" alt="arrow"></div>
+                <div class="column">8:58 am CST</div>
+                <div class="column">MSP</div>
+            </div>
+             <div class="row">
+                <div class="column"><img src="C:\Users\karaf\bootcamp\FlightDashboard\project-1\assets\images\korean-air-logo.jpg" alt="koreanair-logo"></div>
+                <div class="column">Korean Air</div>
+                <div class="column">Flight 3816</div>
+                <div class="column">6:00 am MST</div>
+                <div class="column">DEN</div>
+                <div class="column"><img src="C:\Users\karaf\bootcamp\FlightDashboard\project-1\assets\images\arrow.jpg" alt="arrow"></div>
+                <div class="column">8:58 am CST</div>
+                <div class="column">MSP</div>
+            </div>
+             <div class="row">
+                <div class="column"><a href="file:///C:/Users/karaf/bootcamp/FlightDashboard/project-1/index.html">Change</a></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+            </div>
+           
+        </div>
+        <div class="right-half">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d392565.2037547804!2d-105.13529645012136!3d39.76400211690762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b80aa231f17cf%3A0x118ef4f8278a36d6!2sDenver%2C%20CO!5e0!3m2!1sen!2sus!4v1685382022796!5m2!1sen!2sus" width="770" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
