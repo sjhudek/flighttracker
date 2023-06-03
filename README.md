@@ -4,10 +4,10 @@
 The motivation for this project was learning how to work with a team in order to accomplish our goal to create a application where users could look up a flight based off certain criteria and the results would display the flight status information. Our team built this project because we wanted to apply our in class learnings to a real life situation. The problems our team solved connecting two server side API's to our website in order to make dynamic data display. What our team learned was how to delegate tasks and then be able to work there merge conflicts.
 
 ## Screenshots
-![flight-tracker-home-page-with-form-input-part2](assets\images\flight-tracker-website-page1part1.jpg)
-![flight-tracker-home-page-with-form-input-part2](assets\images\flighttracker-page1-part2.png)
-![flight-tracker-flight-results-list](assets\images\flight-tracker-list-of-flights.jpg)
-![flight-tracker-flight-details](assets\images\flight-tracker-details.jpg)
+![flight-tracker-home-page-with-form-input-part1](assets/images/flight-tracker-website-page1part1.jpg)
+![flight-tracker-home-page-with-form-input-part2](assets/images/flighttracker-page1-part2.png)
+![flight-tracker-flight-results-list](assets/images/flight-tracker-list-of-flights.jpg)
+![flight-tracker-flight-details](assets/images/flight-tracker-details.jpg)
 
 ## GitHub URL
 https://github.com/sjhudek/project-1.git
