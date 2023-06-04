@@ -15,6 +15,7 @@ https://github.com/sjhudek/project-1.git
 ## API's Used
 https://airlabs.co/
 http://api.kayak.com/
+https://developer.mapquest.com/documentation/
 
 ## Installation 
 Clone the repository https://github.com/sjhudek/project-1.git or zip it to your local repository 
