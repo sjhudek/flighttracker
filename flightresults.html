@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: lightgray;
+            color: black;
+            display: flex;
+            justify-content: flex-end; /* Align content to the right */
+            padding: 10px;
+        }
+        .header .column {
+            display: flex;
+            flex-direction: column;
+        }
+        .header .row {
+            display: flex;
+            text-decoration: none; /* Remove underline */
+        }
+        .header .column:nth-child(n) {
+            border-bottom: none; /* Remove gray underline for columns */
+        }
+        .header .row:nth-child(n) {
+            border-bottom: none; /* Remove gray underline for rows */
+        }
+        .body {
+            display: flex;
+        }
+        .left-half {
+            width: 50%;
+            border-right: 1px solid gray;
+        }
+        .right-half {
+            width: 50%;
+            padding: 10px;
+        }
+        .row {
+            display: flex;
+            border-bottom: 1px solid gray;
+        }
+        .column {
+            flex: 1;
+            padding: 10px;
+        }
+        .map {
+            width: 100%;
+            height: 450px;
+            border: 0;
+        }
+    </style>
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div class="column">
+            <div class="row">
+                <span >Airport</span>
+            </div>
+            <div class="row">
+                <span id="t">DEN (Denver Intl)</span>
+            </div>
+        </div>
+        <div class="column">
+            <div class="row">
+                <span>Date</span>
+            </div>
+            <div class="row">
+                <span>06/04</span>
+            </div>
+        </div>
+        <div class="column">
+            <div class="row">
+                <a href="file:///C:/Users/markp/Documents/project-1-main/project-1-main/index.html">Home</a>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="left-half">
+            <div class="row">
+                
+            </div>
+           <!-- <div class="row">
+                <div class="column">Flight Number </div>
+                <div class="column">Depature Time</div>
+                <div class="column">Arrival Airport</div>
+            </div>
+        </div>-->
+
+        <div class="row">
+            <table id="myTable">
+            
+            </table>
+        </div>
+
+       
+       
+            <script src="script3.js"></script>
+        </body>
