@@ -10,10 +10,10 @@ The motivation for this project was learning how to work with a team in order to
 ![flight-tracker-flight-details](assets/images/details-landingpage.jpg)
 
 ## GitHub URL
-https://github.com/sjhudek/project-1.git
+https://github.com/sjhudek/flighttracker.git
 
 ## Live Website URL
-https://sjhudek.github.io/project-1/
+https://sjhudek.github.io/flighttracker/
 
 ## API's Used
 https://airlabs.co/
